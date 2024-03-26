@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "web-modul-02-11"
+version = "0.1.0"
+description = ""
+authors = ["Daryna Mirzaholi <dmirzagholi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.29"
+asyncpg = "^0.29.0"
+unicorn = "^2.0.1.post1"
+uvicorn = "^0.29.0"
+app = "^0.0.1"
+myapplication = "^0.1.0"
+contact = "^1.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
